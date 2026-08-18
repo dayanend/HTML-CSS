@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*MEDIDAS ABSOLUTAS*/
+           /* cm, mm, in(polegadas),px,pt,pc*/
+
+
+
+            /*MEDIDAS RELATIVAS*/
+            /* em(med. rel.ao tamanho atual da fonte), ex(altura x de uma fonte),rem,vw(tamanho de tela),vh(altura da viewport),% 
+            16px geralmente é 1em */
+            /* RECOMENDAÇÃO USE PX OU EM */
+            font-size: 1em;
+            /*lighter normal bold bolder*/
+        }
+        h1{
+            font-family: 'work sans';
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /*shorthand font
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 4em 'work sans'
+
+
+        }
+        h2{
+            font: lighter 3em 'work sans'
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere corporis vero enim ad explicabo quasi voluptatum placeat distinctio labore suscipit qui molestiae nobis aspernatur laudantium, aliquam voluptatibus obcaecati est cupiditate? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est soluta dolores, ipsam, exercitationem amet id hic reiciendis aliquid neque voluptate blanditiis harum. Distinctio illo possimus adipisci magni ipsam laudantium incidunt?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit optio inventore delectus maiores eos cum animi neque totam aspernatur tempora, laudantium voluptas, sunt repellendus omnis, dolorum dicta veniam architecto excepturi.</p>
+    <h2>Subtitulo do texto</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ut ab, rem tempora iure placeat necessitatibus velit nisi facere. Mollitia eaque distinctio quia blanditiis tempore sed voluptas eveniet, et quibusdam?</p>
+</body>
+</html>

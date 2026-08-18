@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo aúdios</h1>
+    <p>Vamos aprender a reproduzir aúdios em HTML5</p>
+    <audio src="midia/i-love-what-you-do-to-me-the-soundlings.mp3" controls autoplay></audio>
+    <audio src="midia/guanacast-33.mp3" controls autoplay></audio>
+   <p>Para ir para a próxima página <a href="pag2.html" target="_self" rel="next">clique aqui</a></p>
+   <p>infelizmente o seu dispositivo não consegue reproduzir o áudio, <a href="midia/i-love-what-you-do-to-me-the-soundlings.mp3"  download="I love what you do to me" type="application/mpeg">clique aqui</a> para baixar o arquivo MP3</p>
+</body>
+</html>
