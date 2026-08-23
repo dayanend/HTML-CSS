@@ -4,10 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronauta</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #container{
+            height: 100vh;
+            background-image: url('imagens/espaco.jpg');
+            background-color: black;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            position: relative;
+            background-attachment: fixed;
+            
+
+        }
+        #conteudo{
+            background-image: url('imagens/astronauta.png');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            height: 400px;
+            width: 400px;
+            position:absolute;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 <body>
+    <section id="container">
+        <article id="conteudo">
 
-    <img src="astronauta.png" alt="">
+        </article>
+        
+    </section>
     
 </body>
 </html>
