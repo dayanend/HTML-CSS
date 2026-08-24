@@ -1,12 +1,27 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
+    font-size: 1em;
 }
+:root{
+    --font-1: verdana,Geneva, Tahoma, sans-serif;
+    --font-2: : "Passion One", sans-serif;
+    --font-3: "Macondo", cursive;
 
+
+}
 html, body{
     min-height: 100%;
     background-color: darkgray ;
+    font-family: var(--font-1);
 }
 header{
     background-color: black;
@@ -17,6 +32,8 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font-2);
+    font-size: 5vw;
 }
 
 header > p{
@@ -37,6 +54,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font-3);
+    font-size: 3vw;
 }
 
 section.normal{
@@ -49,7 +68,8 @@ section.imagem{
     color: white;
 }
 section.imagem >p{
-    width: 400px;
+    display: inline block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.163);
 
 }
