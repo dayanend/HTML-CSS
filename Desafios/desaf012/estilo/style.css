@@ -12,7 +12,7 @@
     font-size: 1em;
 }
 :root{
-    --font-1: verdana,Geneva, Tahoma, sans-serif;
+    --font-1: verdana, Geneva, Tahoma, sans-serif;
     --font-2: : "Passion One", sans-serif;
     --font-3: "Macondo", cursive;
 
@@ -33,7 +33,7 @@ header > h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font-2);
-    font-size: 5vw;
+    font-size: 7.5vw;
 }
 
 header > p{
